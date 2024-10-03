@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "easemind_backend": {
+      "main": "src/easemind_backend/main.mo",
+      "type": "motoko"
+    },
+    "easemind_frontend": {
+      "dependencies": [
+        "easemind_backend"
+      ],
+      "source": [
+        "src/easemind_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "easemind_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
