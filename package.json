@@ -14,5 +14,9 @@
   "type": "module",
   "workspaces": [
     "src/easemind_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@dfinity/agent": "^2.1.2",
+    "@dfinity/auth-client": "^2.1.2"
+  }
 }
